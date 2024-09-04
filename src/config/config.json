@@ -2,8 +2,8 @@
     "port": 8000,
     "backends": [
         {
-            "route": "/api1",
-            "target": "http://localhost:3333"
+            "route": "/api/master",
+            "target": "http://localhost:8002"
         },
         {
             "route": "/api2",
